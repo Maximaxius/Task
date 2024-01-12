@@ -31,8 +31,6 @@ namespace Tasks_3
             volumeOfBlood = _volumeOfBlood;
         }
 
-        // Генератор со случайной инициализацией полей. НЕреализованно
-
         public override string ToString()
         {
             return $"group {_group}\nvolumeOfBlood {_volumeOfBlood} ";

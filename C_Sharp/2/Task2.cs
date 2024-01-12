@@ -106,7 +106,7 @@
 
 //            //for (int i = 0; i < size; i++)
 //            //{
-//            //    arr[i] = rand.Next(0, 3 + 1);                   //чтобы легче было словить последовательность такой маленькой рандом
+//            //    arr[i] = rand.Next(0, 3 + 1);                  
 //            //}
 
 //            //for (int i = 0; i < size - sizeNumber; i++)
@@ -178,7 +178,7 @@
 //            //    }
 //            //    for (int i = 0; i < size2; i++)
 //            //    {
-//            //        if (arrUnique[i] != 0)              // если 0 общий невыведет его поэтому убрал его из рандомf:)
+//            //        if (arrUnique[i] != 0)              
 //            //            Console.Write(arrUnique[i]);
 //            //    }
 //            //}
@@ -214,7 +214,7 @@
 //            //        if (arrUnique[i] != 0)
 //            //            Console.Write(arrUnique[i]+" ");
 //            //    }
-//            //}                                                  // максимально недоволен как это решил но оно работает :-<
+//            //}                                
 
 
 //            //Задание 5 
@@ -247,7 +247,7 @@
 //            //    Пользователь вводит предложение с клавиатуры.Вам необходимо подсчитать количество слов в нём.            
 //            //Console.WriteLine("Enter sentence ");
 //            //string? sentence = Console.ReadLine();
-//            //string[] arr = sentence.Split(new Char[] { ' ' }); // считает ,.?! как отдельные слова 
+//            //string[] arr = sentence.Split(new Char[] { ' ' });
 //            //int words = arr.Length;
 //            //Console.WriteLine($"{words} words in a sentence");
 

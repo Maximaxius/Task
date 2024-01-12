@@ -16,7 +16,7 @@ namespace Tasks_3
     {
         protected int _volumeOfBloodPumpedPerMinute = 0;
 
-        public Heart()                        ///Не генератор для случайной инициализациизначений а конструктор по умолчанию
+        public Heart()
         {
             Random rand = new Random();
             _volume = rand.Next(100);

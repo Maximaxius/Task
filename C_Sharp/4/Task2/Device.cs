@@ -29,7 +29,5 @@ namespace Tasks_2
         {
             Console.WriteLine($"characteristics of  {_characteristics}, year ,");
         }
-
-
     }
 }

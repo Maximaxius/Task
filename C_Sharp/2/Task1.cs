@@ -63,7 +63,7 @@
 //            //{
 //            //    for (int j = 0; j < sizeColuB; j++)
 //            //    {
-//            //        B[i, j] = Convert.ToDouble(rand.Next(lower, upper + 1) / 10.0) + rand.Next(lower, upper + 1);  // 1пол дрроб 2 цел
+//            //        B[i, j] = Convert.ToDouble(rand.Next(lower, upper + 1) / 10.0) + rand.Next(lower, upper + 1);
 //            //    }
 //            //}
 
@@ -122,7 +122,7 @@
 //            //    Определить сумму элементов массива, расположенных между минимальным и максимальным элементами.
 //            //const int size = 5;
 //            //int[,] arr = new int[size, size];
-//            //int[] arr2 = new int[arr.Length];           // одномерный массив 
+//            //int[] arr2 = new int[arr.Length];
 //            //for (int i = 0, for2arr = 0; i < size; i++)
 //            //{
 //            //    for (int j = 0; j < size; j++)
@@ -270,8 +270,8 @@
 //            //Выполнено наверное частично тк нужны пробелы мужду всеми символами
 //            //Console.WriteLine("Enter arithmetic expression with + or - ");
 //            //string? sentence = Console.ReadLine();
-//            //string[] arr = sentence.Split(new Char[] { ' ' }); // работает только через пробел :(
-//            ////string[] arr = sentence.Split(new Char[] { '+','-' }); // не записывает знаки в массив :(
+//            //string[] arr = sentence.Split(new Char[] { ' ' });
+//            ////string[] arr = sentence.Split(new Char[] { '+','-' });
 //            //int result = 0, number = 0;
 //            //bool plus = true;
 //            //for (int i = 0; i < arr.Length; i++)
@@ -306,14 +306,14 @@
 //            //for (int i = 0; i < sentence.Length; i++)
 //            //{
 //            //    if (arr[i] == '.' && arr[i + 1] == ' ')                          // после точки нужен пробел (>_<)/`
-//            //        arr[i + 2] = Convert.ToChar(arr[i + 2] - 32);                   // ультро глупо нужно переделать какнибудь через ToUpper или спроситьт подсказку
+//            //        arr[i + 2] = Convert.ToChar(arr[i + 2] - 32);                   
 //            //}
 //            //for (int i = 0; i < sentence.Length; i++)
 //            //{
-//            //    Console.Write(arr[i]);                                                //  Мое первое решение
+//            //    Console.Write(arr[i]);                                               
 //            //}
 
-//            //Задание 6.2                                                          // второе решение при помощи интернета тк сам забыл что есть StringBuilder 
+//            //Задание 6.2                                                          
 //            //Console.WriteLine("Enter your sentence ");
 //            //string? sentence = Console.ReadLine();
 //            //StringBuilder newSentence = new StringBuilder();

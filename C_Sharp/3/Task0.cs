@@ -22,7 +22,7 @@
         public int A
         {
             get { return _a; }
-            set { _a = value; CalkResult(); }             //вроде считает результат при именении
+            set { _a = value; CalkResult(); }
         }
 
         public int B

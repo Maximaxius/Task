@@ -49,9 +49,6 @@ namespace Tasks_0
                     Console.WriteLine($"top 2 {birninZana}\ntop3 {minsk}");
                 else Console.WriteLine($"top 2 {minsk}\ntop3 {birninZana}");
             }
-
-
-
         }
     }
 }
