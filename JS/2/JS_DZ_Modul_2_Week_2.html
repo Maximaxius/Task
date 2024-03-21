@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="JS_DZ_Modul_2_Week_2.js"></script>
+    <style>
+        *{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body style="text-align:center">    
+    <span>Task1 введите данные и нажмите на ктноптку чтобы создать обьект</span>
+    <br>
+    <input id="nameProduct" placeholder="название продукта">
+    <input id="amount" placeholder="необходимое количество">
+    <br>
+    <input type="checkbox" id="bought">
+    <label for="bought">куплен или нет</label>
+    <br>
+    <button onclick="pushList()">Создать</button>
+    <br>
+    <button onclick="showList()">Вывод списка</button>
+    <br>
+    <span id="show"></span>
+    <br>
+    <button onclick="buyProduct()">Покупка продукта</button>
+    <input id="nameProductForBuy" placeholder="название продукта">
+    <br>    
+
+    <br><br><br>
+
+    <span>Task2 введите данные и нажмите на ктноптку чтобы создать обьект</span>
+    <br>
+    <input id="nameProduct2" placeholder="название продукта">
+    <input id="amount2" placeholder="необходимое количество">
+    <input id="price" placeholder="необходимое количество">    
+    <br>
+    <button onclick="pushList2()">Создать</button>
+    <br>
+    <button onclick="showList2()">Вывод списка</button>
+    <br>
+    <span id="show2"></span>
+    <br>
+    
+    <button onclick="showList2FullPrice()">общей суммы</button>
+    <br>
+    <span id="show2FullPrice"></span>
+    <br>
+
+    <button onclick="showList2MaxPrixe()">самой дорогой</button>
+    <br>
+    <span id="show2MaxPrixe"></span>
+    <br>
+
+    <button onclick="showList2AvgPrixe()">средней стоимости</button>
+    <br>
+    <span id="show2AvgPrixe"></span>
+    <br>
+
+</body>
+</html>
