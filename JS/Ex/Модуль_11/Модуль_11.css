@@ -1,0 +1,18 @@
+#description{
+    list-style-type:disclosure-closed;
+    display: inline-block;
+}
+#Name{
+    list-style-type:auto;
+    display: inline-block;
+}
+#completed{
+    display: inline-block;
+    list-style-type:none;
+}
+.user-control{
+    text-align: center;
+}
+input{
+    margin: 10px;
+}

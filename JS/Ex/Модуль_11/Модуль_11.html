@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Модуль_11.js"></script>
+    <link href="Модуль_11.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <div class="user-control">
+        <input id="nameInp" type="text" placeholder="Name">
+        <input id="desInp" type="text" placeholder="Description">
+        <button onclick="addItem()">Add item</button>
+        <br>
+
+        <input id="delInp" type="number" placeholder="enter num">
+        <button onclick="delItem()">Del item</button>
+        <br>
+
+        <input id="editInp" type="number" placeholder="enter num">
+        <input id="newNameInp" type="text" placeholder="new Name ">
+        <input id="newDesInp" type="text" placeholder="new Description">
+        <button onclick="editItem()">Edit item</button>
+        <br>
+
+        <input id="comInp" type="number" placeholder="enter num">
+        <input type="checkbox" id="complected">
+        <label for="complected">Выполнено или нет</label>
+        <button onclick="editCompleted()">complet item</button>
+        <br>
+
+        <button onclick="showNotCom()">Show not completed</button>
+        <button onclick="showAll()">Show all</button>
+    </div>
+
+    <ul id='Name'>
+        Название 
+    </ul>
+    <ul id='description'>
+        Описание
+    </ul>
+    <ul id='completed'>
+        Выполнение
+    </ul>
+    
+    
+    
+</body>
+</html>
