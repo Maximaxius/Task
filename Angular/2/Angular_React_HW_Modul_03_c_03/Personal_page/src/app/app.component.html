@@ -1,0 +1,33 @@
+<div class="content" role="main">
+  <h1>Bill Gates</h1>
+  <img src="../assets/img/Bill.jpg " alt="image" style="height: 250px; width: 250px" />
+  <h2>Биография</h2>
+  <p>name {{ name }}</p>
+  <p>date {{ birth | date }}</p>
+  <p>money {{money | currency}}mln</p>
+  <p>persent of Microsoft {{persent | percent}}</p>
+
+  <h2>Цитаты *ngFor="let item of Quotes"</h2>
+  <ul>
+    <li *ngFor="let item of Quotes">
+      <span>{{item}}</span>
+    </li>
+  </ul>
+
+  <ng-template [ngIf]="Quotes.length == 0">
+    <h2>List is empty</h2>
+  </ng-template>
+
+  <h2>Cсылки на ресурсы с информацией о Гейтсе через [ngSwitch]</h2>
+
+  <button (click)="addClick($event)">Показать след ссылку </button>
+  <button on-click="removeClick($event)">Показать пред ссылку </button>
+
+  <div [ngSwitch]="count">
+    <ng-template ngSwitchCase="1"><a href="https://en.wikipedia.org/wiki/Bill_Gates">wikipedia</a></ng-template>
+    <ng-template ngSwitchCase="2"><a href="https://www.gatesfoundation.org/">gatesfoundation</a></ng-template>
+    <ng-template ngSwitchCase="3"><a href="https://www.gatesnotes.com/">gatesnotes</a></ng-template>
+    <ng-template ngSwitchCase="4"><a href="https://twitter.com/billgates">twitter</a></ng-template>
+  </div>
+
+</div>
