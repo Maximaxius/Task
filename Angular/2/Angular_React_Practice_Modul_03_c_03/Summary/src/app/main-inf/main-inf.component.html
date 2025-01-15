@@ -1,0 +1,17 @@
+<h2 [innerText]="FIO">priviz</h2>
+<h3 [innerText]="phonNum">{{phonNum}}</h3>
+<h3 [innerText]="city">{{city}}</h3>
+
+
+<h2><span>FIO | uppercase</span> {{FIO | uppercase}} </h2>
+
+<h2><span>FIO | lowercase</span> {{FIO | lowercase}} </h2>
+<br><br><br>
+
+<h2 [ngClass]="{class:true}"><span >FIO | ngClass = true</span> {{FIO}} </h2>
+<h2><span>FIO | ngClass = false</span> {{FIO}} </h2>
+
+<br><br><br>
+
+<h2 [ngStyle]="{'font-size':'14px', 'font-family':'Segoe Print'}"><span >FIO | [ngStyle]=font-size:14px, font-family:Segoe Print</span> {{FIO}} </h2>
+<h2><span>FIO | [ngStyle] = none</span> {{FIO}} </h2>
